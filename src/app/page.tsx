@@ -8,7 +8,7 @@ import { CenteredContent } from "@/components/ui/centeredContent";
 
 export default function Home() {
   return (
-    <div className="flex h-full w-full items-center justify-center overflow-hidden dark:bg-black">
+    <div className="flex h-full w-full items-center justify-center overflow-hidden bg-black">
       <CenteredContent>
         <Navbar></Navbar>
         <HeroSection></HeroSection>
