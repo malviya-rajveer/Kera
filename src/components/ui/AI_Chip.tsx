@@ -238,8 +238,8 @@ export const AI_Chip = () => {
             animate={{
               background: [
                 "linear-gradient(130deg, var(--color-rose-300), var(--color-blue-500))",
-                "linear-gradient(130deg, var(--color-yellow-300), var(--color-emerald-400))",
                 "linear-gradient(130deg, var(--color-red-400), var(--color-indigo-600))",
+                "linear-gradient(130deg, var(--color-yellow-300), var(--color-emerald-400))",
                 "linear-gradient(130deg, var(--color-rose-300), var(--color-blue-500))",
                 // "linear-gradient(130deg,#FDBB2D, #3A1C71",
               ],

@@ -7,7 +7,7 @@ import { motion } from "motion/react";
 import { TextSequence } from "./ui/textSequence";
 import { WaveCircles } from "./ui/circles";
 
-export const Features = () => {
+export const OurFeatures = () => {
   return (
     <div className="flex h-full w-full items-center justify-center font-mono">
       <div className="my-30 grid h-full w-80 grid-cols-3 grid-rows-2 gap-2 md:w-xl md:grid-cols-6 lg:h-145 lg:w-3xl lg:grid-cols-8 xl:w-5xl">
@@ -129,9 +129,14 @@ export const Features = () => {
         </div>
         <div className="relative col-span-3 overflow-hidden rounded-md bg-neutral-100 lg:col-span-2">
           <KeraGradinetCard></KeraGradinetCard>
-          <div className="absolute right-3 bottom-5 flex items-center gap-1 text-sm text-neutral-600">
-            View Pricing
-            <IconArrowNarrowRight size={20}></IconArrowNarrowRight>
+          <div className="absolute right-3 bottom-5 flex items-center gap-1 text-[17px]">
+            <span className="cursor-pointer font-medium text-neutral-500">
+              View Pricing
+            </span>
+            <IconArrowNarrowRight
+              size={24}
+              className="cursor-pointer stroke-neutral-500"
+            ></IconArrowNarrowRight>
           </div>
         </div>
       </div>

@@ -20,7 +20,7 @@ export const OurChip = () => {
             <h3 className="bg-linear-to-br from-violet-200 to-violet-700 bg-clip-text text-[22px] font-medium text-transparent md:text-[25px] lg:text-3xl xl:text-4xl">
               10B+
             </h3>
-            <p className="pr-2 text-[12px] md:text-[11px] lg:text-[12px] xl:text-[14px]">
+            <p className="pr-2 text-[12px] text-neutral-200 md:text-[11px] lg:text-[12px] xl:text-[14px]">
               Total revenue
             </p>
           </div>
@@ -28,7 +28,7 @@ export const OurChip = () => {
             <h3 className="text-[22px] font-medium text-white md:text-[25px] lg:text-3xl xl:text-4xl">
               10M+
             </h3>
-            <p className="pr-2 text-[12px] md:text-[11px] lg:text-[12px] xl:text-[14px]">
+            <p className="pr-2 text-[12px] text-neutral-200 md:text-[11px] lg:text-[12px] xl:text-[14px]">
               production
             </p>
           </div>{" "}
@@ -40,7 +40,7 @@ export const OurChip = () => {
             >
               100%
             </h3>
-            <p className="pr-2 text-[12px] md:text-[11px] lg:text-[12px] xl:text-[14px]">
+            <p className="pr-2 text-[12px] text-neutral-200 md:text-[11px] lg:text-[12px] xl:text-[14px]">
               recycled
             </p>
           </div>
