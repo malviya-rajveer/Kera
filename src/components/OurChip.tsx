@@ -6,14 +6,14 @@ export const OurChip = () => {
       <div className="absolute mt-4 h-px w-full bg-[repeating-linear-gradient(_to_right,rgba(255,255,255,0.5)_0px,rgba(255,255,255,0.5)_6px,transparent_6px,transparent_12px)] [mask-image:linear-gradient(to_right,transparent_0%,black_5%,black_95%,transparent_100%)]" />
       <div className="ml-5 w-1/2 font-mono md:ml-10">
         <h2 className="mt-[18vh] w-80 text-[20px] text-white md:text-[18px] lg:w-full lg:text-[22px] lg:leading-8 xl:text-[34px] xl:leading-11">
-          A high-performance processor optimized for real-time{" "}
-          <span className="text-stone-400">
-            AI workloads The compute engine powering the next generation of AI
+          A high-performance processor optimized for real-time AI workloads{" "}
+          <span className="text-balance text-stone-400">
+            The compute engine powering the next generation of AI
           </span>
         </h2>
         <p className="mt-4 w-70 text-[12px] text-neutral-200 md:text-[11px] lg:w-90 lg:text-[13px] lg:leading-5 xl:w-md xl:text-[15px] xl:leading-6">
           Our AI processor is purpose-built to run modern machine learning
-          workloads efficiently and at scale. Designed from the ground
+          workloads efficiently and at scale. Designed from the ground.
         </p>
         <div className="mt-8 flex h-20 w-full gap-6">
           <div className="flex flex-col items-center">
