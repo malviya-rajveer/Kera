@@ -7,7 +7,7 @@ export const OurChip = () => {
       <div className="ml-5 w-1/2 font-mono md:ml-10">
         <h2 className="mt-[18vh] w-80 text-[20px] text-white md:text-[18px] lg:w-full lg:text-[22px] lg:leading-8 xl:text-[34px] xl:leading-11">
           A high-performance processor optimized for real-time{" "}
-          <span className="text-zinc-400">
+          <span className="text-stone-400">
             AI workloads The compute engine powering the next generation of AI
           </span>
         </h2>

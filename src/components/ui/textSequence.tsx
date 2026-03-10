@@ -1,4 +1,5 @@
 "use client";
+import { cn } from "@/lib/utils";
 import { motion, stagger, useAnimate } from "motion/react";
 import { useEffect } from "react";
 export const TextSequence = () => {
@@ -29,7 +30,11 @@ export const TextSequence = () => {
   return (
     <motion.div
       ref={scope}
-      className="absolute top-[27vh] w-52 text-[18px] leading-6 text-neutral-50 md:top-30 md:left-14 xl:top-34 xl:left-18 xl:w-60 xl:text-xl"
+      className={cn(
+        "absolute w-52 text-center leading-6 text-neutral-50",
+        "top-30 text-[20px] md:left-10",
+        "xl:top-36 xl:left-12 xl:w-65 xl:text-[23px] xl:leading-7",
+      )}
     >
       {text.split(" ").map((word, idx) => {
         return (

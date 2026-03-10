@@ -6,7 +6,7 @@ export const Companies = () => {
     <div className="flex h-50 w-full flex-col justify-center gap-1 pl-5 font-mono md:flex-row md:items-center lg:h-60">
       <h2 className="w-70 text-[17px] text-white md:w-full md:pl-10 md:text-[18px] lg:text-[22px] xl:text-[32px] xl:leading-11">
         Trusted by the{" "}
-        <span className="text-zinc-400">
+        <span className="text-stone-400">
           best AI Companies leading the Industry.
         </span>
       </h2>
