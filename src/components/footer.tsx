@@ -5,7 +5,7 @@ export const Footer = () => {
     <div className="relative flex h-full w-full flex-col">
       <div
         className={cn(
-          "mt-[14vh] flex w-full justify-center bg-linear-to-b from-[#474747] to-[#030303] bg-clip-text font-medium text-transparent",
+          "pointer-events-none mt-[14vh] flex w-full justify-center bg-linear-to-b from-[#474747] to-[#030303] bg-clip-text font-medium text-transparent",
           "text-[180px] md:text-[250px] lg:text-[300px] xl:text-[359px]",
           "md:leading-55 lg:leading-70 xl:leading-80",
         )}
@@ -23,13 +23,13 @@ export const Footer = () => {
           <div className="cursor-pointer hover:text-neutral-600">Articles</div>
         </div>
         <div className="mt-1 flex items-center justify-center">
-          <div className="scale-35">
+          <div className="scale-35 cursor-pointer">
             <XSVG></XSVG>
           </div>
-          <div className="scale-35">
+          <div className="scale-35 cursor-pointer">
             <MessageSVG></MessageSVG>
           </div>
-          <div className="scale-50">
+          <div className="scale-50 cursor-pointer">
             <LinkdIn></LinkdIn>
           </div>
         </div>
